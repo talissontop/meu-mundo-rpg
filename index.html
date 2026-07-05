@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Mundo RPG - Estilo Anime</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="ui/styles/main.css">
+    <script src="https://cdn.babylonjs.com/babylon.js"></script>
+    <script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
+</head>
+<body>
+    <canvas id="gameCanvas"></canvas>
+    <div id="crosshair"></div>
+    <div id="vida">
+        VIDA
+        <div id="vidaBar"><div id="vidaFill"></div></div>
+    </div>
+
+    <script src="src/core/game.js"></script>
+    <script src="src/physics/collision.js"></script>
+    <script src="src/player/camera.js"></script>
+    
+    <script src="src/player/combat.js"></script>
+    <script src="src/world/slime.js"></script>
+    <script src="src/world/forest_map.js"></script>
+    <script src="src/main.js"></script>
+</body>
+</html>
